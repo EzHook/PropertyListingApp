@@ -1,14 +1,13 @@
-# Welcome to your Expo app 👋
+# Welcome to Property Listing App 👋  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app). The app enables users to trade commodities seamlessly without using money.  
 
-## Get started
+## Get started  
 
-1. Install dependencies
+1. Install dependencies:  
 
-   ```bash
-   npm install
-   ```
+   ```bash  
+   npm install  
 
 2. Start the app
 
@@ -25,26 +24,25 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## Assumptions
 
 When you're ready, run:
 
-```bash
-npm run reset-project
-```
+- Map Functionality:
+The map is expected to work in production but currently does not due to configuration limitations. However, it works correctly in debug mode on the Android emulator.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Backend Hosting:
+The backend has been hosted on Vercel, and APIs are fully integrated with the app for data retrieval.
 
-## Learn more
+## Instructions for the Reviewer
+- Testing the Map:
 
-To learn more about developing your project with Expo, look at the following resources:
+To test map functionality, run the app in the Android emulator and enable debug mode.
+Open the developer menu in the emulator and select "Debug JS Remotely."
+API Connectivity:
+Ensure that you have an active internet connection as the app communicates with the hosted backend for data.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Expo Compatibility:
+If any issues arise, verify that you are using the latest version of Expo CLI.
 
-## Join the community
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
